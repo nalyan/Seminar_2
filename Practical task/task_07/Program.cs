@@ -8,6 +8,5 @@ while (Math.Abs(number) >= 1)
 {
     number = number / 10;
     count++;
-    Console.WriteLine($"{number} {count}");
 }
 Console.WriteLine($"количество цифр в числе {number} = {count}");
